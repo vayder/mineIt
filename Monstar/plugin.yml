@@ -1,0 +1,38 @@
+name: MonstarPlugin
+main: me.vayder69.Monstar.MonstarPlugin
+version: 0.01
+description: >
+             My Monstar plugin.
+commands:
+  vmconvert:
+    description: makes target player a monstar.
+  vmreload:
+    description: reloads the configs.
+  vmcure:
+    description: cures a monstar.
+  vm:
+    description: displays help.
+  vmtestmode:
+    description: enables/disables testmode for OPs.
+  vml:
+    description: list of monstars.
+  gmode:
+    description: used to switch between SURVIVAL and CREATIVE.
+  position:
+    description: check exact position.
+  heal:
+    description: heals you or target player.
+  h:
+    description: heal
+  slap:
+    description: slap someone
+  vmw:
+    description: teleports to target location
+  vmwadd:
+    description: adds a teleport location to list
+  vmwdel:
+    description: deletes a teleport location from list
+  vmwl:
+    description: shows a list of all warps
+  blubb:
+    description: it does stuff
