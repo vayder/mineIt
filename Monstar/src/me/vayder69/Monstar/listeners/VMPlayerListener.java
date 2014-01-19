@@ -284,7 +284,7 @@ public class VMPlayerListener implements Listener{
 			
 			if(getIsMonstar(pVictim)){
 				
-				int damage = event.getDamage();
+				double damage = event.getDamage();
 				DamageCause damageCause = event.getCause();
 			
 				//fire immunity and shit
@@ -296,7 +296,7 @@ public class VMPlayerListener implements Listener{
 				}
 				else{
 					//receive less dmg, cause you're awesome, you're a monstar
-					damage = (int) (damage * 0.75);
+					damage = damage * 0.75;
 				}
 			
 				event.setDamage((int) Math.round(damage));
